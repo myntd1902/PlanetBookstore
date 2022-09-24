@@ -10,3 +10,8 @@ D:\My Projects\PlanetBookstore\PlanetBook\PlanetBook.DataAccess\obj\Debug\net5.0
 D:\My Projects\PlanetBookstore\PlanetBook\PlanetBook.DataAccess\obj\Debug\net5.0\refint\PlanetBook.DataAccess.dll
 D:\My Projects\PlanetBookstore\PlanetBook\PlanetBook.DataAccess\obj\Debug\net5.0\PlanetBook.DataAccess.pdb
 D:\My Projects\PlanetBookstore\PlanetBook\PlanetBook.DataAccess\obj\Debug\net5.0\ref\PlanetBook.DataAccess.dll
+D:\My Projects\PlanetBookstore\PlanetBook\PlanetBook.DataAccess\bin\Debug\net5.0\PlanetBook.Models.dll
+D:\My Projects\PlanetBookstore\PlanetBook\PlanetBook.DataAccess\bin\Debug\net5.0\PlanetBook.Utility.dll
+D:\My Projects\PlanetBookstore\PlanetBook\PlanetBook.DataAccess\bin\Debug\net5.0\PlanetBook.Models.pdb
+D:\My Projects\PlanetBookstore\PlanetBook\PlanetBook.DataAccess\bin\Debug\net5.0\PlanetBook.Utility.pdb
+D:\My Projects\PlanetBookstore\PlanetBook\PlanetBook.DataAccess\obj\Debug\net5.0\PlanetBook.DataAccess.csproj.CopyComplete

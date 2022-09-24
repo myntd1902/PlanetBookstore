@@ -1,6 +1,6 @@
 using System;
 
-namespace PlanetBookWeb.Models.ViewModels
+namespace PlanetBook.Models.ViewModels
 {
     public class ErrorViewModel
     {

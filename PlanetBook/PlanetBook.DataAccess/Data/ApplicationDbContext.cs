@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace PlanetBookWeb.DataAccess.Data
+namespace PlanetBook.DataAccess.Data
 {
     public class ApplicationDbContext : IdentityDbContext
     {

@@ -10,7 +10,9 @@
         "dependencies": {
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.17",
           "Microsoft.EntityFrameworkCore.Relational": "5.0.17",
-          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.17"
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.17",
+          "PlanetBook.Models": "1.0.0",
+          "PlanetBook.Utility": "1.0.0"
         },
         "runtime": {
           "PlanetBook.DataAccess.dll": {}
@@ -1097,6 +1099,16 @@
           "System.Xml.ReaderWriter": "4.3.0",
           "System.Xml.XmlDocument": "4.3.0"
         }
+      },
+      "PlanetBook.Models/1.0.0": {
+        "runtime": {
+          "PlanetBook.Models.dll": {}
+        }
+      },
+      "PlanetBook.Utility/1.0.0": {
+        "runtime": {
+          "PlanetBook.Utility.dll": {}
+        }
       }
     }
   },
@@ -1798,6 +1810,16 @@
       "sha512": "sha512-MYoTCP7EZ98RrANESW05J5ZwskKDoN0AuZ06ZflnowE50LTpbR5yRg3tHckTVm5j/m47stuGgCrCHWePyHS70Q==",
       "path": "system.xml.xmlserializer/4.3.0",
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    },
+    "PlanetBook.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PlanetBook.Utility/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }
