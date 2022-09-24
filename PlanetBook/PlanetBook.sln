@@ -5,6 +5,12 @@ VisualStudioVersion = 17.3.32819.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlanetBookWeb", "PlanetBookWeb\PlanetBookWeb.csproj", "{17D7A282-F0F8-405E-948B-3089B0356408}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlanetBook.DataAccess", "PlanetBook.DataAccess\PlanetBook.DataAccess.csproj", "{48686743-F173-4058-9459-73F476AB139B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlanetBook.Models", "PlanetBook.Models\PlanetBook.Models.csproj", "{53A8EDA3-B922-42D3-A248-5D1ED790B57A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlanetBook.Utility", "PlanetBook.Utility\PlanetBook.Utility.csproj", "{FF6C9387-6573-4878-A545-1F6F7DEF0E13}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{17D7A282-F0F8-405E-948B-3089B0356408}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{17D7A282-F0F8-405E-948B-3089B0356408}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{17D7A282-F0F8-405E-948B-3089B0356408}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48686743-F173-4058-9459-73F476AB139B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48686743-F173-4058-9459-73F476AB139B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48686743-F173-4058-9459-73F476AB139B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48686743-F173-4058-9459-73F476AB139B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53A8EDA3-B922-42D3-A248-5D1ED790B57A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53A8EDA3-B922-42D3-A248-5D1ED790B57A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53A8EDA3-B922-42D3-A248-5D1ED790B57A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53A8EDA3-B922-42D3-A248-5D1ED790B57A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF6C9387-6573-4878-A545-1F6F7DEF0E13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF6C9387-6573-4878-A545-1F6F7DEF0E13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF6C9387-6573-4878-A545-1F6F7DEF0E13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF6C9387-6573-4878-A545-1F6F7DEF0E13}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

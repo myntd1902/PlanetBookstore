@@ -2157,6 +2157,43 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "PlanetBook.DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.17",
+          "Microsoft.EntityFrameworkCore.Relational": "5.0.17",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.17",
+          "PlanetBook.Models": "1.0.0",
+          "PlanetBook.Utility": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PlanetBook.DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PlanetBook.DataAccess.dll": {}
+        }
+      },
+      "PlanetBook.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/PlanetBook.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PlanetBook.Models.dll": {}
+        }
+      },
+      "PlanetBook.Utility/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/PlanetBook.Utility.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PlanetBook.Utility.dll": {}
+        }
       }
     }
   },
@@ -6997,6 +7034,21 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "PlanetBook.DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../PlanetBook.DataAccess/PlanetBook.DataAccess.csproj",
+      "msbuildProject": "../PlanetBook.DataAccess/PlanetBook.DataAccess.csproj"
+    },
+    "PlanetBook.Models/1.0.0": {
+      "type": "project",
+      "path": "../PlanetBook.Models/PlanetBook.Models.csproj",
+      "msbuildProject": "../PlanetBook.Models/PlanetBook.Models.csproj"
+    },
+    "PlanetBook.Utility/1.0.0": {
+      "type": "project",
+      "path": "../PlanetBook.Utility/PlanetBook.Utility.csproj",
+      "msbuildProject": "../PlanetBook.Utility/PlanetBook.Utility.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -7006,7 +7058,10 @@
       "Microsoft.AspNetCore.Identity.UI >= 5.0.17",
       "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation >= 5.0.17",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.17",
-      "Microsoft.EntityFrameworkCore.Tools >= 5.0.17"
+      "Microsoft.EntityFrameworkCore.Tools >= 5.0.17",
+      "PlanetBook.DataAccess >= 1.0.0",
+      "PlanetBook.Models >= 1.0.0",
+      "PlanetBook.Utility >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -7043,7 +7098,17 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\My Projects\\PlanetBookstore\\PlanetBook\\PlanetBook.DataAccess\\PlanetBook.DataAccess.csproj": {
+              "projectPath": "D:\\My Projects\\PlanetBookstore\\PlanetBook\\PlanetBook.DataAccess\\PlanetBook.DataAccess.csproj"
+            },
+            "D:\\My Projects\\PlanetBookstore\\PlanetBook\\PlanetBook.Models\\PlanetBook.Models.csproj": {
+              "projectPath": "D:\\My Projects\\PlanetBookstore\\PlanetBook\\PlanetBook.Models\\PlanetBook.Models.csproj"
+            },
+            "D:\\My Projects\\PlanetBookstore\\PlanetBook\\PlanetBook.Utility\\PlanetBook.Utility.csproj": {
+              "projectPath": "D:\\My Projects\\PlanetBookstore\\PlanetBook\\PlanetBook.Utility\\PlanetBook.Utility.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -1,0 +1,12 @@
+D:\My Projects\PlanetBookstore\PlanetBook\PlanetBook.DataAccess\bin\Debug\net5.0\PlanetBook.DataAccess.deps.json
+D:\My Projects\PlanetBookstore\PlanetBook\PlanetBook.DataAccess\bin\Debug\net5.0\PlanetBook.DataAccess.dll
+D:\My Projects\PlanetBookstore\PlanetBook\PlanetBook.DataAccess\bin\Debug\net5.0\PlanetBook.DataAccess.pdb
+D:\My Projects\PlanetBookstore\PlanetBook\PlanetBook.DataAccess\obj\Debug\net5.0\PlanetBook.DataAccess.csproj.AssemblyReference.cache
+D:\My Projects\PlanetBookstore\PlanetBook\PlanetBook.DataAccess\obj\Debug\net5.0\PlanetBook.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\My Projects\PlanetBookstore\PlanetBook\PlanetBook.DataAccess\obj\Debug\net5.0\PlanetBook.DataAccess.AssemblyInfoInputs.cache
+D:\My Projects\PlanetBookstore\PlanetBook\PlanetBook.DataAccess\obj\Debug\net5.0\PlanetBook.DataAccess.AssemblyInfo.cs
+D:\My Projects\PlanetBookstore\PlanetBook\PlanetBook.DataAccess\obj\Debug\net5.0\PlanetBook.DataAccess.csproj.CoreCompileInputs.cache
+D:\My Projects\PlanetBookstore\PlanetBook\PlanetBook.DataAccess\obj\Debug\net5.0\PlanetBook.DataAccess.dll
+D:\My Projects\PlanetBookstore\PlanetBook\PlanetBook.DataAccess\obj\Debug\net5.0\refint\PlanetBook.DataAccess.dll
+D:\My Projects\PlanetBookstore\PlanetBook\PlanetBook.DataAccess\obj\Debug\net5.0\PlanetBook.DataAccess.pdb
+D:\My Projects\PlanetBookstore\PlanetBook\PlanetBook.DataAccess\obj\Debug\net5.0\ref\PlanetBook.DataAccess.dll

@@ -1,0 +1,12 @@
+D:\My Projects\PlanetBookstore\PlanetBook\PlanetBook.Utility\bin\Debug\net5.0\PlanetBook.Utility.deps.json
+D:\My Projects\PlanetBookstore\PlanetBook\PlanetBook.Utility\bin\Debug\net5.0\PlanetBook.Utility.dll
+D:\My Projects\PlanetBookstore\PlanetBook\PlanetBook.Utility\bin\Debug\net5.0\PlanetBook.Utility.pdb
+D:\My Projects\PlanetBookstore\PlanetBook\PlanetBook.Utility\obj\Debug\net5.0\PlanetBook.Utility.csproj.AssemblyReference.cache
+D:\My Projects\PlanetBookstore\PlanetBook\PlanetBook.Utility\obj\Debug\net5.0\PlanetBook.Utility.GeneratedMSBuildEditorConfig.editorconfig
+D:\My Projects\PlanetBookstore\PlanetBook\PlanetBook.Utility\obj\Debug\net5.0\PlanetBook.Utility.AssemblyInfoInputs.cache
+D:\My Projects\PlanetBookstore\PlanetBook\PlanetBook.Utility\obj\Debug\net5.0\PlanetBook.Utility.AssemblyInfo.cs
+D:\My Projects\PlanetBookstore\PlanetBook\PlanetBook.Utility\obj\Debug\net5.0\PlanetBook.Utility.csproj.CoreCompileInputs.cache
+D:\My Projects\PlanetBookstore\PlanetBook\PlanetBook.Utility\obj\Debug\net5.0\PlanetBook.Utility.dll
+D:\My Projects\PlanetBookstore\PlanetBook\PlanetBook.Utility\obj\Debug\net5.0\refint\PlanetBook.Utility.dll
+D:\My Projects\PlanetBookstore\PlanetBook\PlanetBook.Utility\obj\Debug\net5.0\PlanetBook.Utility.pdb
+D:\My Projects\PlanetBookstore\PlanetBook\PlanetBook.Utility\obj\Debug\net5.0\ref\PlanetBook.Utility.dll

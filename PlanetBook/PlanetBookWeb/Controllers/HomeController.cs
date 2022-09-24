@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using PlanetBookWeb.Models;
+using PlanetBookWeb.Models.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
