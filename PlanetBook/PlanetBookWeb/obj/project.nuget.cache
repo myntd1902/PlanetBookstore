@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "LjjIjrz30zQU00esc7gqenUzJcdsGnvraiXpNxk7HGigxk1mvTN1hRvrgJJsljDjif1wsAAB2qIIL9TdpNAfUQ==",
+  "dgSpecHash": "/9hijrI3FYYkO95zdmWSukCt2myMVrKcNMTifGT9L0Q8Kme264g16F+zJzogp6gcsxJ+VMiAcuoymeXo+RcqPA==",
   "success": true,
   "projectFilePath": "D:\\My Projects\\PlanetBookstore\\PlanetBook\\PlanetBookWeb\\PlanetBookWeb.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\myntd\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
     "C:\\Users\\myntd\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\myntd\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.17\\microsoft.aspnetcore.cryptography.internal.5.0.17.nupkg.sha512",
     "C:\\Users\\myntd\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\5.0.17\\microsoft.aspnetcore.cryptography.keyderivation.5.0.17.nupkg.sha512",
