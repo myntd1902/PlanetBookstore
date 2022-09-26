@@ -12,7 +12,7 @@ namespace PlanetBook.Models
     {
         [Key]
         public int Id { get; set; }
-        [Required]
+        [Required(ErrorMessage = "Vui lòng nhập tên thể loại")]
         [DisplayName("Tên thể loại")]
         [MaxLength(50)]
         public string Name { get; set; }

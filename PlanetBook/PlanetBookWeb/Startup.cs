@@ -8,6 +8,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using PlanetBook.DataAccess.Data;
+using PlanetBook.DataAccess.Repository;
 using PlanetBook.DataAccess.Repository.IRepository;
 using System;
 using System.Collections.Generic;
@@ -35,7 +36,7 @@ namespace PlanetBookWeb
 
             services.AddDefaultIdentity<IdentityUser>()
                 .AddEntityFrameworkStores<ApplicationDbContext>();
-            services.AddScoped<IUnitOfWork, IUnitOfWork>();
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddControllersWithViews();
         }
 

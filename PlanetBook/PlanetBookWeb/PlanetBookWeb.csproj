@@ -22,8 +22,4 @@
     <ProjectReference Include="..\PlanetBook.Utility\PlanetBook.Utility.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Areas\Admin\Controllers\" />
-  </ItemGroup>
-
 </Project>

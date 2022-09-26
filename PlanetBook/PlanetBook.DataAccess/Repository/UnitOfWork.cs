@@ -25,7 +25,7 @@ namespace PlanetBook.DataAccess.Repository
         {
             _db.Dispose();
         }
-        public void SAve()
+        public void Save()
         {
             _db.SaveChanges();
         }
