@@ -20,7 +20,7 @@ namespace PlanetBook.DataAccess.Repository
         public void Update(Category category)
         {
             var objFromDb = _db.Categories.FirstOrDefault(c => c.Id == category.Id);
-            if (objFromDb == null)
+            if (objFromDb != null)
             {
                 objFromDb.Name = category.Name;
                 _db.SaveChanges();
