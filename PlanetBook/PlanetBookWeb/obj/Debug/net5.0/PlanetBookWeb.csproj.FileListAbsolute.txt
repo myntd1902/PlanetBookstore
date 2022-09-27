@@ -457,3 +457,4 @@ D:\My Projects\PlanetBookstore\PlanetBook\PlanetBookWeb\bin\Debug\net5.0\Microso
 D:\My Projects\PlanetBookstore\PlanetBook\PlanetBookWeb\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
 D:\My Projects\PlanetBookstore\PlanetBook\PlanetBookWeb\obj\Debug\net5.0\Razor\Areas\Admin\Views\Product\Index.cshtml.g.cs
 D:\My Projects\PlanetBookstore\PlanetBook\PlanetBookWeb\obj\Debug\net5.0\Razor\Areas\Admin\Views\Product\Upsert.cshtml.g.cs
+D:\My Projects\PlanetBookstore\PlanetBook\PlanetBookWeb\obj\Debug\net5.0\Razor\Areas\Customer\Views\HomePage\Index.cshtml.g.cs
