@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
@@ -13,12 +14,15 @@ namespace PlanetBook.Models
     {
         [Key]
         public int Id { get; set; }
-        [Required]
+        [Required(ErrorMessage = "Vui lòng nhập tiêu đề")]
+        [DisplayName("Tiêu đề")]
         public string Title { get; set; }
+        [DisplayName("Mô tả")]
         public string Description { get; set; }
-        [Required]
+        [Required(ErrorMessage = "Vui lòng nhập ISBN")]
         public string ISBN { get; set; }
-        [Required]
+        [Required(ErrorMessage = "Vui lòng nhập tác giả")]
+        [DisplayName("Tác giả")]
         public string Author { get; set; }
         [Required]
         [Range(1, 1000)]
@@ -33,11 +37,11 @@ namespace PlanetBook.Models
         [Range(1, 1000)]
         public double Price100 { get; set; }
         public string ImageUrl { get; set; }
-        [Required]
+        [Required(ErrorMessage = "Vui lòng chọn thể loại")]
         public int CategoryId { get; set; }
         [ForeignKey("CategoryId")]
         public Category Category { get; set; }
-        [Required]
+        [Required(ErrorMessage = "Vui lòng chọn loại bìa")]
         public int CoverTypeId { get; set; }
         [ForeignKey("CoverTypeId")]
         public CoverType CoverType { get; set; }

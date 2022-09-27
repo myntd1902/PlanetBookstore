@@ -458,3 +458,5 @@ D:\My Projects\PlanetBookstore\PlanetBook\PlanetBookWeb\bin\Debug\net5.0\Newtons
 D:\My Projects\PlanetBookstore\PlanetBook\PlanetBookWeb\obj\Debug\net5.0\Razor\Areas\Admin\Views\Product\Index.cshtml.g.cs
 D:\My Projects\PlanetBookstore\PlanetBook\PlanetBookWeb\obj\Debug\net5.0\Razor\Areas\Admin\Views\Product\Upsert.cshtml.g.cs
 D:\My Projects\PlanetBookstore\PlanetBook\PlanetBookWeb\obj\Debug\net5.0\Razor\Areas\Customer\Views\HomePage\Index.cshtml.g.cs
+D:\My Projects\PlanetBookstore\PlanetBook\PlanetBookWeb\obj\Debug\net5.0\Razor\Areas\Admin\Views\Company\Index.cshtml.g.cs
+D:\My Projects\PlanetBookstore\PlanetBook\PlanetBookWeb\obj\Debug\net5.0\Razor\Areas\Admin\Views\Company\Upsert.cshtml.g.cs
