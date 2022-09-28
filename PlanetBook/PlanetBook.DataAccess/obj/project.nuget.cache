@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "VGO+y0GRYJ7fRLYbI92X/PivX7PX+awF80pE/bKAA+uySQTAGdB+u+ewIOFdNod2VDi+jWj5prDgQkrjNnnREQ==",
+  "dgSpecHash": "FGEmG7D/IzeLj/2WSvcqlcdIKYUjPPlAWcviDK5BKn26RtWoECpXzaX6WYC+gLG+hmXJxh+XKzww19vnblsMoQ==",
   "success": true,
   "projectFilePath": "D:\\My Projects\\PlanetBookstore\\PlanetBook\\PlanetBook.DataAccess\\PlanetBook.DataAccess.csproj",
   "expectedPackageFiles": [
@@ -23,6 +23,7 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.http.extensions\\2.2.0\\microsoft.aspnetcore.http.extensions.2.2.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
     "C:\\Users\\myntd\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\5.0.17\\microsoft.aspnetcore.identity.entityframeworkcore.5.0.17.nupkg.sha512",
+    "C:\\Users\\myntd\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\5.0.17\\microsoft.aspnetcore.identity.ui.5.0.17.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.jsonpatch\\2.2.0\\microsoft.aspnetcore.jsonpatch.2.2.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.mvc.abstractions\\2.2.0\\microsoft.aspnetcore.mvc.abstractions.2.2.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.mvc.core\\2.2.0\\microsoft.aspnetcore.mvc.core.2.2.0.nupkg.sha512",
@@ -48,7 +49,8 @@
     "C:\\Users\\myntd\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.2\\microsoft.extensions.dependencyinjection.5.0.2.nupkg.sha512",
     "C:\\Users\\myntd\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.extensions.dependencymodel\\2.1.0\\microsoft.extensions.dependencymodel.2.1.0.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.extensions.fileproviders.abstractions\\2.2.0\\microsoft.extensions.fileproviders.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\myntd\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\5.0.0\\microsoft.extensions.fileproviders.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\myntd\\.nuget\\packages\\microsoft.extensions.fileproviders.embedded\\5.0.17\\microsoft.extensions.fileproviders.embedded.5.0.17.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.extensions.hosting.abstractions\\2.2.0\\microsoft.extensions.hosting.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\myntd\\.nuget\\packages\\microsoft.extensions.identity.core\\5.0.17\\microsoft.extensions.identity.core.5.0.17.nupkg.sha512",
     "C:\\Users\\myntd\\.nuget\\packages\\microsoft.extensions.identity.stores\\5.0.17\\microsoft.extensions.identity.stores.5.0.17.nupkg.sha512",

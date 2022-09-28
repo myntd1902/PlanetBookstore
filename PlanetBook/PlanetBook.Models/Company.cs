@@ -13,16 +13,17 @@ namespace PlanetBook.Models
     {
         public int Id { get; set; }
         [Required(ErrorMessage = "Vui lòng nhập tên công ty")]
+        [DisplayName("Tên công ty")]
         public string Name { get; set; }
-        [DisplayName("Đường")]
+        [DisplayName("Số nhà/ Đường")]
         public string StreetAddress { get; set; }
-        [DisplayName("Thành phố")]
+        [DisplayName("Thành phố/ Tỉnh")]
         public string City { get; set; }
-        [DisplayName("Quận")]
+        [DisplayName("Quận/ Huyện")]
         public string State { get; set; }
         [DisplayName("Mã bưu điện")]
         public string PostalCode { get; set; }
-        [DisplayName("Liên lạc")]
+        [DisplayName("SĐT")]
         public string PhoneNumber { get; set; }
         [DisplayName("Ủy quyền")]
         public bool IsAuthorizedCompany { get; set; }

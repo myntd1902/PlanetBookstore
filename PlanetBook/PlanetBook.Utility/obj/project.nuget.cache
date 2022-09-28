@@ -1,8 +1,23 @@
 {
   "version": 2,
-  "dgSpecHash": "9ijg+L3Gz/VR/KKJpq82LWPDD4fM3sHlq0447OxXrjHl7OjDQoR+t2Yh+9s7TFTTPuOjHGpdrgqm/ZLPtDwocA==",
+  "dgSpecHash": "ZWf3JmKsfkfG4/pl0cD0vjueZGLt4IVTCGQg/0l+BugSXgr0cDnxbaLfwOfLWJk2DZmTrkozuHm/xKLojn+9Mg==",
   "success": true,
   "projectFilePath": "D:\\My Projects\\PlanetBookstore\\PlanetBook\\PlanetBook.Utility\\PlanetBook.Utility.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\myntd\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.17\\microsoft.aspnetcore.cryptography.internal.5.0.17.nupkg.sha512",
+    "C:\\Users\\myntd\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\5.0.17\\microsoft.aspnetcore.cryptography.keyderivation.5.0.17.nupkg.sha512",
+    "C:\\Users\\myntd\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\5.0.17\\microsoft.aspnetcore.identity.ui.5.0.17.nupkg.sha512",
+    "C:\\Users\\myntd\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\5.0.0\\microsoft.extensions.caching.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\myntd\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.0\\microsoft.extensions.dependencyinjection.5.0.0.nupkg.sha512",
+    "C:\\Users\\myntd\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\myntd\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\5.0.0\\microsoft.extensions.fileproviders.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\myntd\\.nuget\\packages\\microsoft.extensions.fileproviders.embedded\\5.0.17\\microsoft.extensions.fileproviders.embedded.5.0.17.nupkg.sha512",
+    "C:\\Users\\myntd\\.nuget\\packages\\microsoft.extensions.identity.core\\5.0.17\\microsoft.extensions.identity.core.5.0.17.nupkg.sha512",
+    "C:\\Users\\myntd\\.nuget\\packages\\microsoft.extensions.identity.stores\\5.0.17\\microsoft.extensions.identity.stores.5.0.17.nupkg.sha512",
+    "C:\\Users\\myntd\\.nuget\\packages\\microsoft.extensions.logging\\5.0.0\\microsoft.extensions.logging.5.0.0.nupkg.sha512",
+    "C:\\Users\\myntd\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0\\microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\myntd\\.nuget\\packages\\microsoft.extensions.options\\5.0.0\\microsoft.extensions.options.5.0.0.nupkg.sha512",
+    "C:\\Users\\myntd\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

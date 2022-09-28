@@ -3800,6 +3800,9 @@
       "PlanetBook.Utility/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.UI": "5.0.17"
+        },
         "compile": {
           "bin/placeholder/PlanetBook.Utility.dll": {}
         },

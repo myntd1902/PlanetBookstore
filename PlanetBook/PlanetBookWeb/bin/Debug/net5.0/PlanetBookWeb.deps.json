@@ -2568,6 +2568,9 @@
         }
       },
       "PlanetBook.Utility/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.UI": "5.0.17"
+        },
         "runtime": {
           "PlanetBook.Utility.dll": {}
         },
