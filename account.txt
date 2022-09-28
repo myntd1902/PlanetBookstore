@@ -1,3 +1,11 @@
-Admin:
+--Admin--
 admin@planetbook.com
 Admin@123
+
+--User Indi--
+jennie@blackpink.com
+Jennie@123
+
+--User Company--
+blackpink@blink.com
+Blackpink@123

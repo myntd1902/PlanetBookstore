@@ -23,21 +23,21 @@
                 <div class="collapse navbar-collapse" id="navbarColor01">
                     <ul class="navbar-nav me-auto">
                         <li class="nav-item">
-                            <a class="nav-link text-light" asp-area="Customer" asp-controller="HomePage" asp-action="Index">TRANG CHỦ</a>
+                            <a class="nav-link text-light" asp-area="Customer" asp-controller="HomePage" asp-action="Index">Trang chủ</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle text-light" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">QUẢN LÝ</a>
+                            <a class="nav-link dropdown-toggle text-light" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Quản lý</a>
                             <div class="dropdown-menu">
                                 <a class="dropdown-item" asp-area="Admin" asp-controller="Category" asp-action="Index">Thể loại</a>
                                 <a class="dropdown-item" asp-area="Admin" asp-controller="CoverType" asp-action="Index">Loại bìa</a>
-                                <a class="dropdown-item" asp-area="Admin" asp-controller="Product" asp-action="Index">Sản phẩm</a>
                                 <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#">Separated link</a>
+                                <a class="dropdown-item" asp-area="Admin" asp-controller="Product" asp-action="Index">Sản phẩm</a>
                             </div>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle text-light" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">NGƯỜI DÙNG/ CÔNG TY</a>
+                            <a class="nav-link dropdown-toggle text-light" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Người dùng/ Công ty</a>
                             <div class="dropdown-menu">
+                                <a class="dropdown-item" asp-area="Admin" asp-controller="User" asp-action="Index">Người dùng</a>
                                 <a class="dropdown-item" asp-area="Admin" asp-controller="Company" asp-action="Index">Công ty</a>
                             </div>
                         </li>

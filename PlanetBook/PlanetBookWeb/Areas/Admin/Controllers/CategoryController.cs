@@ -13,7 +13,7 @@ namespace PlanetBookWeb.Areas.Admin.Controllers
         {
             _unitOfWork = unitOfWork;
         }
-    
+
         public IActionResult Index()
         {
             return View();
@@ -44,7 +44,7 @@ namespace PlanetBookWeb.Areas.Admin.Controllers
                     _unitOfWork.Category.Update(category);
                 _unitOfWork.Save();
                 return RedirectToAction(nameof(Index));
-            }    
+            }
             return View(category);
         }
 
