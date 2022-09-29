@@ -9,3 +9,7 @@ Jennie@123
 --User Company--
 blackpink@blink.com
 Blackpink@123
+
+--Nhân viên--
+hachtl@yg.com
+Hachtl@123

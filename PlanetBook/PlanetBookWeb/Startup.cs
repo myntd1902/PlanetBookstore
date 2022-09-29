@@ -42,6 +42,16 @@ namespace PlanetBookWeb
             services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddControllersWithViews();
             services.AddRazorPages();
+            services.AddAuthentication().AddFacebook(options =>
+            {
+                options.AppId = "395284669290309";
+                options.AppSecret = "2e680fca81749f6b2ca5d432743b6169";
+            });
+            services.AddAuthentication().AddGoogle(options =>
+            {
+                options.ClientId = "570113296147-au06ke07b70ilff5evrm440i16jbb4ok.apps.googleusercontent.com";
+                options.ClientSecret = "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";
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

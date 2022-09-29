@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Security.Claims;
@@ -13,6 +14,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.WebUtilities;
 using Microsoft.Extensions.Logging;
+using PlanetBook.Models;
+using PlanetBook.Utility;
 
 namespace PlanetBookWeb.Areas.Identity.Pages.Account
 {
@@ -51,6 +54,17 @@ namespace PlanetBookWeb.Areas.Identity.Pages.Account
             [Required]
             [EmailAddress]
             public string Email { get; set; }
+            public string Name { get; set; }
+            [DisplayName("Số nhà/ Đường")]
+            public string StreetAddress { get; set; }
+            [DisplayName("Thành phố/ Tỉnh")]
+            public string City { get; set; }
+            [DisplayName("Quận/ Huyện")]
+            public string State { get; set; }
+            [DisplayName("Mã bưu điện")]
+            public string PostalCode { get; set; }
+            [DisplayName("SĐT")]
+            public string PhoneNumber { get; set; }
         }
 
         public IActionResult OnGetAsync()
@@ -101,7 +115,9 @@ namespace PlanetBookWeb.Areas.Identity.Pages.Account
                 {
                     Input = new InputModel
                     {
-                        Email = info.Principal.FindFirstValue(ClaimTypes.Email)
+                        Email = info.Principal.FindFirstValue(ClaimTypes.Email),
+                        Name = info.Principal.FindFirstValue(ClaimTypes.Name),
+                        PhoneNumber = info.Principal.FindFirstValue(ClaimTypes.MobilePhone)
                     };
                 }
                 return Page();
@@ -121,11 +137,22 @@ namespace PlanetBookWeb.Areas.Identity.Pages.Account
 
             if (ModelState.IsValid)
             {
-                var user = new IdentityUser { UserName = Input.Email, Email = Input.Email };
+                var user = new ApplicationUser
+                {
+                    UserName = Input.Email,
+                    Email = Input.Email,
+                    StreetAddress = Input.StreetAddress,
+                    City = Input.City,
+                    State = Input.State,
+                    PostalCode = Input.PostalCode,
+                    Name = Input.Name,
+                    PhoneNumber = Input.PhoneNumber
+                };
 
                 var result = await _userManager.CreateAsync(user);
                 if (result.Succeeded)
                 {
+                    await _userManager.AddToRoleAsync(user, SD.Role_User_Indi);
                     result = await _userManager.AddLoginAsync(user, info);
                     if (result.Succeeded)
                     {

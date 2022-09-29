@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "UkUsW/z+UTfXTd8W+VCidAeznaLxNiYVdkyQRKFaqqlInMwDYUXMgMaDdi/GxYdnQ4N0mpnE2TpRuaU+pY0BdQ==",
+  "dgSpecHash": "Qxl/ShnGdebuzQkD60+nDBEO9pJqT9unUl6fj+XkI4z6ydutWQhNVZg2no2eJS2WIhjsDpM2lus84vPNY2zlAQ==",
   "success": true,
   "projectFilePath": "D:\\My Projects\\PlanetBookstore\\PlanetBook\\PlanetBookWeb\\PlanetBookWeb.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,8 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.antiforgery\\2.2.0\\microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",
+    "C:\\Users\\myntd\\.nuget\\packages\\microsoft.aspnetcore.authentication.facebook\\5.0.17\\microsoft.aspnetcore.authentication.facebook.5.0.17.nupkg.sha512",
+    "C:\\Users\\myntd\\.nuget\\packages\\microsoft.aspnetcore.authentication.google\\5.0.17\\microsoft.aspnetcore.authentication.google.5.0.17.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.authorization\\2.2.0\\microsoft.aspnetcore.authorization.2.2.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.authorization.policy\\2.2.0\\microsoft.aspnetcore.authorization.policy.2.2.0.nupkg.sha512",
     "C:\\Users\\myntd\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.17\\microsoft.aspnetcore.cryptography.internal.5.0.17.nupkg.sha512",

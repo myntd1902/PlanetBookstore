@@ -47,10 +47,11 @@ namespace PlanetBookWeb.Areas.Identity.Pages.Account
             public string Email { get; set; }
 
             [Required]
+            [Display(Name = "Mật khẩu")]
             [DataType(DataType.Password)]
             public string Password { get; set; }
 
-            [Display(Name = "Remember me?")]
+            [Display(Name = "Ghi nhớ đăng nhập?")]
             public bool RememberMe { get; set; }
         }
 

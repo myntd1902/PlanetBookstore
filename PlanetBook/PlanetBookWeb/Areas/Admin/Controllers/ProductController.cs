@@ -9,10 +9,14 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.Extensions.Hosting;
 using System.IO;
 using System;
+using Microsoft.AspNetCore.Authorization;
+using PlanetBook.Utility;
+using System.Data;
 
 namespace PlanetBookWeb.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = SD.Role_Admin)]
     public class ProductController : Controller
     {
         private readonly IUnitOfWork _unitOfWork;

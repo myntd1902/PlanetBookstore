@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿@using PlanetBook.Utility
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -16,7 +17,7 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
             <div class="container-fluid">
-                <a class="navbar-brand" asp-area="Customer" asp-controller="Home" asp-action="Index">PLANET Bookstore</a>
+                <a class="navbar-brand" asp-area="Customer" asp-controller="Home" asp-action="Index">PLANET</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -25,22 +26,28 @@
                         <li class="nav-item">
                             <a class="nav-link text-light" asp-area="Customer" asp-controller="HomePage" asp-action="Index">Trang chủ</a>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle text-light" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Quản lý</a>
-                            <div class="dropdown-menu">
-                                <a class="dropdown-item" asp-area="Admin" asp-controller="Category" asp-action="Index">Thể loại</a>
-                                <a class="dropdown-item" asp-area="Admin" asp-controller="CoverType" asp-action="Index">Loại bìa</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" asp-area="Admin" asp-controller="Product" asp-action="Index">Sản phẩm</a>
-                            </div>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle text-light" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Người dùng/ Công ty</a>
-                            <div class="dropdown-menu">
-                                <a class="dropdown-item" asp-area="Admin" asp-controller="User" asp-action="Index">Người dùng</a>
-                                <a class="dropdown-item" asp-area="Admin" asp-controller="Company" asp-action="Index">Công ty</a>
-                            </div>
-                        </li>
+                        @if (User.IsInRole(SD.Role_Admin))
+                        {
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle text-light" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Quản lý</a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" asp-area="Admin" asp-controller="Category" asp-action="Index">Thể loại</a>
+                                    <a class="dropdown-item" asp-area="Admin" asp-controller="CoverType" asp-action="Index">Loại bìa</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" asp-area="Admin" asp-controller="Product" asp-action="Index">Sản phẩm</a>
+                                </div>
+                            </li>
+                        }
+                        @if (User.IsInRole(SD.Role_Employee) || User.IsInRole(SD.Role_Admin))
+                        {
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle text-light" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Người dùng/ Công ty</a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" asp-area="Admin" asp-controller="User" asp-action="Index">Người dùng</a>
+                                    <a class="dropdown-item" asp-area="Admin" asp-controller="Company" asp-action="Index">Công ty</a>
+                                </div>
+                            </li>
+                        }
                     </ul>
                     @*<form class="d-flex">
                         <input class="form-control me-sm-2" type="text" placeholder="Tìm kiếm">

@@ -154,7 +154,8 @@ namespace PlanetBookWeb.Areas.Identity.Pages.Account
                     {
                         if (user.CompanyId > 0)
                             await _userManager.AddToRoleAsync(user, SD.Role_User_Comp);
-                        await _userManager.AddToRoleAsync(user, SD.Role_Admin);
+                        else
+                            await _userManager.AddToRoleAsync(user, user.Role);
                     }
 
                     //var code = await _userManager.GenerateEmailConfirmationTokenAsync(user);

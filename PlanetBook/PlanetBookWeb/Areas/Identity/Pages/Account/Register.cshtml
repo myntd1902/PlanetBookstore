@@ -61,8 +61,8 @@
             @if (User.IsInRole(SD.Role_Admin))
             {
                 <div class="form-group">
-                    <label asp-for="Input.Role"></label>
-                    @Html.DropDownListFor(m => m.Input.Role, Model.Input.RoleList, "--Chọn vai trò--", new {@class = "form-control"})
+                        <label asp-for="Input.Role"></label>
+                        @Html.DropDownListFor(m => m.Input.Role, Model.Input.RoleList, "--Chọn vai trò--", new {@class = "form-control"})
                 </div>
                 <div class="form-group">
                     <label asp-for="Input.CompanyId"></label>
