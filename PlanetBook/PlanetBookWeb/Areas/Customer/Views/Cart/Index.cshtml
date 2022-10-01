@@ -1,0 +1,82 @@
+﻿@model PlanetBook.Models.ViewModels.ShoppingCartVM
+<form method="post">
+    <br />
+    @if (Model.ListCart.Count() > 0)
+    {
+        <div class="text-end">
+           <a asp-area="Customer" asp-controller="HomePage" asp-action="Index" class="btn btn-secondary btn-sm">Tiếp tục mua hàng</a>
+        </div>
+        <br/>
+        <div class="backgroundWhiteBorder">
+            <div class="container">
+                <div class="card">
+                    <div class="card-header bg-primary text-light ml-0 row container">
+                        <div class="text-start">
+                            <i class="fa fa-shopping-cart"></i> &nbsp;
+                            Giỏ hàng
+                        </div>
+                        
+                    </div>
+                    <div class="card-body">
+                        @foreach (var item in Model.ListCart)
+                        {
+                            <div class="row">
+                                <div class="d-none d-lg-block col-lg-1 text-center py-2">
+                                    <img src="@item.Product.ImageUrl" class="rounded" width="100%" />
+                                </div>
+                                <div class="col-12 text-sm-center col-lg-6 text-lg-left">
+                                    <h5><strong>@item.Product.Title</strong></h5>
+                                    <p><small>@item.Product.Author</small></p>
+                                    @*<p><small>@item.Product.Description</small></p>*@
+                                </div>
+                                <div class="col-12 text-sm-center col-lg-5 text-lg-right row">
+                                    <div class="col-4" style="padding-top:5px;">
+                                        <h6><strong>@item.Price.ToString("0.000")<span class="text-muted"> x</span> @item.Count </strong></h6>
+                                    </div>
+                                    <div class="col-2">
+                                        <h6></h6>
+                                    </div>
+                                    <div class="col-6">
+                                        <a asp-action="Plus" asp-route-cartId="@item.Id" class="btn btn-outline-danger">
+                                            <i class="bi bi-plus"></i>
+                                        </a>
+                                        <a asp-action="Minus" asp-route-cartId="@item.Id" class="btn btn-outline-danger">
+                                            <i class="bi bi-dash"></i>
+                                        </a>
+                                        <a asp-action="Remove" asp-route-cartId="@item.Id" class="btn btn-outline-danger">
+                                            <i class="bi bi-trash"></i>
+                                        </a>
+                                    </div>
+                            </div>
+                            </div>
+                            <hr />
+                            <div class="row">
+                                <div class="col-12 col-md-6 offset-md-6 col-lg-4 offset-lg-8 pr-4">
+                                    <ul class="list-group">
+                                        <li class="list-group-item d-flex justify-content-between bg-light">
+                                            <span class="text-success">Tổng tiền</span>
+                                            <strong class="text-success"><span id="txtOrderTotal">@Model.OrderHeader.OrderTotal.ToString("0.000")</span></strong>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                    <div class="card-footer">
+                        <div class="card-footer row">
+
+                            <div class="col-sm-12 col-lg-4 col-md-6 offset-lg-8 offset-md-6 ">
+
+                                <a asp-area="Customer" asp-controller="Cart" asp-action="Summary" class="btn btn-info form-control">Tóm tắt</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+    else
+    {
+        <div>Không có sản phẩm nào trong giỏ hàng!</div>
+    }
+</form>
