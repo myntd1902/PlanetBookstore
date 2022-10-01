@@ -502,3 +502,4 @@ D:\My Projects\PlanetBookstore\PlanetBook\PlanetBookWeb\obj\Debug\net5.0\Razor\A
 D:\My Projects\PlanetBookstore\PlanetBook\PlanetBookWeb\obj\Debug\net5.0\Razor\Areas\Admin\Views\User\Index.cshtml.g.cs
 D:\My Projects\PlanetBookstore\PlanetBook\PlanetBookWeb\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.Facebook.dll
 D:\My Projects\PlanetBookstore\PlanetBook\PlanetBookWeb\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.Google.dll
+D:\My Projects\PlanetBookstore\PlanetBook\PlanetBookWeb\obj\Debug\net5.0\Razor\Areas\Customer\Views\HomePage\Details.cshtml.g.cs

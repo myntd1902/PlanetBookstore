@@ -11,6 +11,9 @@ using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
+using PlanetBook.DataAccess.Repository.IRepository;
+using Microsoft.AspNetCore.Http;
+using PlanetBook.Utility;
 
 namespace PlanetBookWeb.Areas.Identity.Pages.Account
 {
@@ -20,14 +23,17 @@ namespace PlanetBookWeb.Areas.Identity.Pages.Account
         private readonly UserManager<IdentityUser> _userManager;
         private readonly SignInManager<IdentityUser> _signInManager;
         private readonly ILogger<LoginModel> _logger;
+        private readonly IUnitOfWork _unitofWork;
 
         public LoginModel(SignInManager<IdentityUser> signInManager, 
             ILogger<LoginModel> logger,
-            UserManager<IdentityUser> userManager)
+            UserManager<IdentityUser> userManager,
+            IUnitOfWork unitofWork)
         {
             _userManager = userManager;
             _signInManager = signInManager;
             _logger = logger;
+            _unitofWork = unitofWork;
         }
 
         [BindProperty]
@@ -85,6 +91,10 @@ namespace PlanetBookWeb.Areas.Identity.Pages.Account
                 var result = await _signInManager.PasswordSignInAsync(Input.Email, Input.Password, Input.RememberMe, lockoutOnFailure: false);
                 if (result.Succeeded)
                 {
+                    var user = _unitofWork.ApplicationUser.GetFirstOrDefault(u => u.Email == Input.Email);
+                    int count = _unitofWork.ShoppingCart.GetAll(u => u.ApplicationUserId == user.Id).Count();
+                    HttpContext.Session.SetInt32(SD.ShoppingCart_Session, count);
+
                     _logger.LogInformation("User logged in.");
                     return LocalRedirect(returnUrl);
                 }

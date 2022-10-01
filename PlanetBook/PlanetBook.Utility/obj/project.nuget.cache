@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ZWf3JmKsfkfG4/pl0cD0vjueZGLt4IVTCGQg/0l+BugSXgr0cDnxbaLfwOfLWJk2DZmTrkozuHm/xKLojn+9Mg==",
+  "dgSpecHash": "+2OuicdwnJBIoHVOg0gdFxWR5ZTSVbl1S6ThzaHS+K9c+gPUs3FhYuFf39D8IJivBxGMPSLNKbTgMMn/3OBJQQ==",
   "success": true,
   "projectFilePath": "D:\\My Projects\\PlanetBookstore\\PlanetBook\\PlanetBook.Utility\\PlanetBook.Utility.csproj",
   "expectedPackageFiles": [
@@ -17,7 +17,8 @@
     "C:\\Users\\myntd\\.nuget\\packages\\microsoft.extensions.logging\\5.0.0\\microsoft.extensions.logging.5.0.0.nupkg.sha512",
     "C:\\Users\\myntd\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0\\microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\myntd\\.nuget\\packages\\microsoft.extensions.options\\5.0.0\\microsoft.extensions.options.5.0.0.nupkg.sha512",
-    "C:\\Users\\myntd\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512"
+    "C:\\Users\\myntd\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
+    "C:\\Users\\myntd\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
   ],
   "logs": []
 }

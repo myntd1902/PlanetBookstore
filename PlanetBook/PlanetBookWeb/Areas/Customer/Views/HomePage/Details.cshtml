@@ -1,0 +1,83 @@
+﻿@model PlanetBook.Models.ShoppingCart
+
+<form method="post">
+    <input hidden asp-for="ProductId" />
+        <div class="container backgroundWhite">
+            <div class="card">
+                <div class="card-header bg-light text-light ml-0 row container">
+                    <div class="col-12 col-md-8">
+                        <h1 class="text-info">@Model.Product.Title</h1>
+                    <p class="text-warning">của @Model.Product.Author</p>
+                    </div>
+                    <div class="col-12 col-md-4 text-md-right pt-4">
+                        <span class="text-secondary" style="height:40px;">@Model.Product.CoverType.Name &nbsp;</span>
+                        <span class="text-secondary" style="height:40px;">&nbsp; @Model.Product.Category.Name</span>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="container rounded p-2">
+                        <div class="row">
+                            <div class="col-8 col-lg-8">
+                                <div class="row pl-2">
+                                <h5 class="text-dark">ISBN : @Model.Product.ISBN</h5>
+                                <h5></h5>
+                                </div>
+                                <div class="row pl-2">
+                                <h5 class="text-muted pb-2">Giá gốc: <strike>@Model.Product.ListPrice.ToString("0.000") VNĐ</strike></h5>
+                                </div>
+                                <div class="row text-center pl-2">
+                                    <div class="p-1 col-2 bg-light border-bottom">
+                                        <div>Số lượng</div>
+                                    </div>
+                                    <div class="p-1 col-2 bg-light border-bottom">
+                                        <div>1-49</div>
+                                    </div>
+                                    <div class="p-1 col-2 bg-light border-bottom">
+                                        <div>50-99</div>
+                                    </div>
+                                    <div class="p-1 col-2 bg-light border-bottom">
+                                        <div>100+</div>
+                                    </div>
+                                </div>
+                                <div class="row text-center pl-2" style="color:maroon; font-weight:bold">
+                                    <div class="p-1 col-2 bg-light">
+                                        <div>Giá</div>
+                                    </div>
+                                    <div class="p-1 col-2 bg-light">
+                                    <div>@Model.Product.Price.ToString("0.000")</div>
+                                    </div>
+                                    <div class="p-1 col-2 bg-light">
+                                    <div>@Model.Product.Price50.ToString("0.000")</div>
+                                    </div>
+                                    <div class="p-1 col-2 bg-light">
+                                    <div>@Model.Product.Price100.ToString("0.000")</div>
+                                    </div>
+                                </div>
+                                <div class="row pl-2">
+                                <p class="text-secondary">@Html.Raw(@Model.Product.Description)</p>
+                                </div>
+                                <div class="row pl-2">
+                                    <div class="col-2 text-primary"><h5>Số lượng</h5></div>
+                                    <div class="col-10"><input class="form-control" asp-for="Count"/></div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-3 offset-lg-1 text-center">
+                                <img src="@Model.Product.ImageUrl" width="100%" class="rounded" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div class="row">
+                    <div class="col-12 col-md-6 pb-1">
+                        <button type="submit" value="Thêm vào giỏ hàng" class="btn btn-info btn-square form-control" style="height:50px;"><i class="bi bi-cart4"></i> Thêm vào giỏ hàng</button>
+                    </div>
+                    <div class="col-12 col-md-6 pb-1">
+                        <a asp-action="Index" class="btn btn-secondary form-control btn-secondary btn-lg" style="height:50px;">Trở về</a>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+

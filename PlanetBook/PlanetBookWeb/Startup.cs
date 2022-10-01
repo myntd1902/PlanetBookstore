@@ -52,6 +52,12 @@ namespace PlanetBookWeb
                 options.ClientId = "570113296147-au06ke07b70ilff5evrm440i16jbb4ok.apps.googleusercontent.com";
                 options.ClientSecret = "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";
             });
+            services.AddSession(option =>
+            {
+                option.IdleTimeout = TimeSpan.FromMinutes(30);
+                option.Cookie.HttpOnly = true;
+                option.Cookie.IsEssential = true;
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -72,7 +78,7 @@ namespace PlanetBookWeb
             app.UseStaticFiles();
 
             app.UseRouting();
-
+            app.UseSession();
             app.UseAuthentication();
             app.UseAuthorization();
 

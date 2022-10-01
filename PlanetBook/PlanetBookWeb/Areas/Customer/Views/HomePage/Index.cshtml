@@ -9,18 +9,18 @@
                 <div class="card" style="border:0px;">
                     <img src="@product.ImageUrl" class="card-img-top rounded" />
                     <div class="pl-1">
-                            <p class="card-title h5"><b style="color:#2c3e50">@product.Title</b></p>
-                            <p class="card-title text-primary">by <b>@product.Author</b></p>
+                            <p class="card-title h5 text-info"><b>@product.Title</b></p>
+                            <p class="card-title text-warning">của <b>@product.Author</b></p>
                     </div>
                     <div style="padding-left:5px;">
-                            <p>Giá gốc: <strike><b class="">@product.ListPrice.ToString("0.000")VNĐ</b></strike></p>
+                            <p>Giá gốc: <strike><b class="">@product.ListPrice.ToString("0.000") VNĐ</b></strike></p>
                     </div>
                     <div style="padding-left:5px;">
-                            <p style="color:maroon">Giảm còn: <b class="">@product.Price100.ToString("0.000")VNĐ</b></p>
+                            <p style="color:maroon">Giảm còn: <b class="">@product.Price100.ToString("0.000") VNĐ</b></p>
                     </div>
                 </div>
                 <div>
-                    <a asp-action="Details" class="btn btn-primary form-control" asp-route-id="@product.Id">Chi tiết</a>
+                    <a asp-action="Details" class="btn btn-success form-control" asp-route-id="@product.Id">Chi tiết</a>
                 </div>
             </div>
         </div>
