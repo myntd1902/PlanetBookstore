@@ -504,3 +504,5 @@ D:\My Projects\PlanetBookstore\PlanetBook\PlanetBookWeb\bin\Debug\net5.0\Microso
 D:\My Projects\PlanetBookstore\PlanetBook\PlanetBookWeb\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.Google.dll
 D:\My Projects\PlanetBookstore\PlanetBook\PlanetBookWeb\obj\Debug\net5.0\Razor\Areas\Customer\Views\HomePage\Details.cshtml.g.cs
 D:\My Projects\PlanetBookstore\PlanetBook\PlanetBookWeb\obj\Debug\net5.0\Razor\Areas\Customer\Views\Cart\Index.cshtml.g.cs
+D:\My Projects\PlanetBookstore\PlanetBook\PlanetBookWeb\obj\Debug\net5.0\Razor\Areas\Customer\Views\Cart\Summary.cshtml.g.cs
+D:\My Projects\PlanetBookstore\PlanetBook\PlanetBookWeb\obj\Debug\net5.0\Razor\Areas\Customer\Views\Cart\PaymentNL.cshtml.g.cs

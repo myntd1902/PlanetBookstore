@@ -1,12 +1,12 @@
 ﻿@model PlanetBook.Models.ViewModels.ShoppingCartVM
 <form method="post">
     <br />
-    @if (Model.ListCart.Count() > 0)
-    {
-        <div class="text-end">
+    <div class="text-end">
            <a asp-area="Customer" asp-controller="HomePage" asp-action="Index" class="btn btn-secondary btn-sm">Tiếp tục mua hàng</a>
         </div>
         <br/>
+    @if (Model.ListCart.Count() > 0)
+    {
         <div class="backgroundWhiteBorder">
             <div class="container">
                 <div class="card">
@@ -49,25 +49,27 @@
                                     </div>
                             </div>
                             </div>
-                            <hr />
-                            <div class="row">
-                                <div class="col-12 col-md-6 offset-md-6 col-lg-4 offset-lg-8 pr-4">
-                                    <ul class="list-group">
-                                        <li class="list-group-item d-flex justify-content-between bg-light">
-                                            <span class="text-success">Tổng tiền</span>
-                                            <strong class="text-success"><span id="txtOrderTotal">@Model.OrderHeader.OrderTotal.ToString("0.000")</span></strong>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
+                            
                         }
+
+                        <hr />
+                        <div class="row">
+                            <div class="col-12 col-md-6 offset-md-6 col-lg-4 offset-lg-8 pr-4">
+                                <ul class="list-group">
+                                    <li class="list-group-item d-flex justify-content-between bg-light">
+                                        <span class="text-success">Tổng tiền</span>
+                                        <strong class="text-success"><span id="txtOrderTotal">@Model.OrderHeader.OrderTotal.ToString("0.000")</span></strong>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                     <div class="card-footer">
                         <div class="card-footer row">
 
                             <div class="col-sm-12 col-lg-4 col-md-6 offset-lg-8 offset-md-6 ">
 
-                                <a asp-area="Customer" asp-controller="Cart" asp-action="Summary" class="btn btn-info form-control">Tóm tắt</a>
+                                <a asp-area="Customer" asp-controller="Cart" asp-action="Summary" class="btn btn-info form-control">Thông tin đặt hàng</a>
                             </div>
                         </div>
                     </div>

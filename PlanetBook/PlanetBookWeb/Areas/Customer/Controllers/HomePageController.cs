@@ -79,15 +79,15 @@ namespace PlanetBookWeb.Areas.Customer.Controllers
                 _unitOfWork.Save();
 
                 var count = _unitOfWork.ShoppingCart
-                    .GetAll(u => u.ApplicationUserId == cartFromDb.ApplicationUserId).ToList().Count();
+                    .GetAll(u => u.ApplicationUserId == shoppingCart.ApplicationUserId).ToList().Count();
                 //HttpContext.Session.SetObject(SD.ShoppingCart_Session, shoppingCart);
                 //var obj = HttpContext.Session.GetObject<ShoppingCart>(SD.ShoppingCart_Session);
                 HttpContext.Session.SetInt32(SD.ShoppingCart_Session, count);
-                return RedirectToAction("Index");
+                return RedirectToAction(nameof(Index));
             }
             else
             {
-                var productFromDb = _unitOfWork.Product.GetFirstOrDefault(u => u.Id == shoppingCart.Id, 
+                var productFromDb = _unitOfWork.Product.GetFirstOrDefault(u => u.Id == shoppingCart.ProductId, 
                     includeProperties: "Category,CoverType");
                 ShoppingCart carObj = new ShoppingCart()
                 {

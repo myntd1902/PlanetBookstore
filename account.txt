@@ -2,14 +2,14 @@
 admin@planetbook.com
 Admin@123
 
+--Nhân viên--
+employee@planetbook.com
+Employee@123
+
 --User Indi--
-jennie@blackpink.com
-Jennie@123
+individual@gmail.com
+Abc@123
 
 --User Company--
-blackpink@blink.com
-Blackpink@123
-
---Nhân viên--
-hachtl@yg.com
-Hachtl@123
+jennie@yg.com
+Abc@123

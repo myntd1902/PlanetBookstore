@@ -149,13 +149,22 @@ namespace PlanetBookWeb.Areas.Identity.Pages.Account
                     //await _userManager.AddToRoleAsync(user, SD.Role_Admin);
 
                     if (user.Role == null)
+                    {
+                        user.CompanyId = null;
                         await _userManager.AddToRoleAsync(user, SD.Role_User_Indi);
+                    }    
+                        
                     else
                     {
                         if (user.CompanyId > 0)
                             await _userManager.AddToRoleAsync(user, SD.Role_User_Comp);
                         else
-                            await _userManager.AddToRoleAsync(user, user.Role);
+                        {
+                            if (user.Role == SD.Role_Admin)
+                                await _userManager.AddToRoleAsync(user, SD.Role_Admin);
+                            else
+                                await _userManager.AddToRoleAsync(user, SD.Role_Employee);
+                        }
                     }
 
                     //var code = await _userManager.GenerateEmailConfirmationTokenAsync(user);

@@ -7,16 +7,16 @@
         <div class="row p-2">
             <div class="col-12  p-1" style="border:1px solid #008cba; border-radius: 5px;">
                 <div class="card" style="border:0px;">
-                    <img src="@product.ImageUrl" class="card-img-top rounded" />
+                    <img src="@product.ImageUrl" class="card-img-top rounded" width="200px" height="200px"/>
                     <div class="pl-1">
-                            <p class="card-title h5 text-info"><b>@product.Title</b></p>
+                            <p class="card-title h6 text-info"><b>@product.Title</b></p>
                             <p class="card-title text-warning">của <b>@product.Author</b></p>
                     </div>
                     <div style="padding-left:5px;">
-                            <p>Giá gốc: <strike><b class="">@product.ListPrice.ToString("0.000") VNĐ</b></strike></p>
+                            <p>Giá lẻ: <strike><b class="">@product.ListPrice.ToString("0.000") VNĐ</b></strike></p>
                     </div>
                     <div style="padding-left:5px;">
-                            <p style="color:maroon">Giảm còn: <b class="">@product.Price100.ToString("0.000") VNĐ</b></p>
+                            <p style="color:maroon">Giá sỉ: <b class="">@product.Price100.ToString("0.000") VNĐ</b></p>
                     </div>
                 </div>
                 <div>
